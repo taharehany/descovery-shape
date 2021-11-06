@@ -2438,7 +2438,7 @@ jQuery(document).ready(function(){
 	jQuery(document).on('click', '.gallery-icons img', function(){
 		var img_src = jQuery(this).attr('bigimg');
 		if(img_src == 'video_iPhone_11_pro') {
-			jQuery('.gallery-main-img-wrapper').html('<div style="padding:50px 0px;"><video controls width="100%" height="100%"><source src="images/video/iphone11Pro.mp4" type="video/mp4" /></video></div>');
+			jQuery('.gallery-main-img-wrapper').html('<div style="padding:50px 0px;"><video controls width="100%" height="100%"><source src="images/video/iphone11Pro.mp4" type="video/mp4" /></video></div>'); 
 		} 
 		else if(img_src == 'video_iPhone_11') {
 			jQuery('.gallery-main-img-wrapper').html('<div style="padding:50px 0px;"><video controls width="100%" height="100%"><source src="images/video/iphone11.mp4" type="video/mp4" /></video></div>');
