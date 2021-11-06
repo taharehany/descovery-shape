@@ -765,3 +765,15 @@ a.disabled {
       font-size: 35px;
    }
 }
+
+@media screen and (max-width: 767px) {
+   .navbar .content {
+      ul {
+         flex-wrap: wrap;
+         justify-content: flex-start;
+         li {
+            margin: 10px;
+         }
+      }
+   }
+}
