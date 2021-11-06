@@ -106,7 +106,7 @@
                 <?php
                     $email= "info@descoverydxb.com";
                     if (!empty($_POST)){
-                        if(empty($_POST['name']) or empty($_POST['tel']) or empty($_POST['message'])){
+                        if(empty($_POST['name']) or empty($_POST['number']) or empty($_POST['email']) or empty($_POST['message'])){
                             echo("You did not fill in all the fields");
                         }
                         else{
